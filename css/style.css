@@ -1,0 +1,430 @@
+html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    #music{
+	position: fixed;
+	top: 3%;
+	right: 5%;
+	z-index: 999;
+	width: 10%;
+	transform-origin: 50% 50%;
+	animation: run 2s linear infinite;
+}
+
+@keyframes run{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+    /*第一个*/
+.one{
+	background: url(../img/bj1.png);
+	/*background: 350%;*/
+}
+
+#pic1 img.pic-1{
+	width: 92%;
+	height: 84%;
+	position: absolute;
+	top: 3%;
+	left: 3%;
+}
+#pic1 img.pic-2{
+	width: 22%;
+	height: 66%;
+	position: absolute;
+	top: 4%;
+	left: 71%;
+}
+#pic1 img.zi-1{
+	width: 86%;
+	height: 8%;
+	position: absolute;
+	bottom: 16%;
+	left: 5%;
+}
+#pic1 img.zi-2{
+	width: 40%;
+	height: 7%;
+	position: absolute;
+	bottom: 12%;
+	left: 50%;
+}
+#pic1 img.zi-3{
+	width: 35%;
+	height: 3%;
+	position: absolute;
+	bottom: 5%;
+	left: 32%;
+}
+/*第二个*/
+#pic2{
+	height: 100%;
+}
+#pic2 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic2 .p2-1{
+	width: 85%;
+	height: 63%;
+	position: absolute;
+	top: 5%;
+	left: 7%;
+}
+#pic2 .p2-1 img.pic2-2{
+	width: 100%;
+}
+#pic2 .p2-2{
+	width: 45%;
+	height: 8%;
+	position: absolute;
+	top: 52%;
+	left: 28%;
+}
+#pic2 .p2-2 img.pic2-3{
+	width: 100%;
+}
+#pic2 .p2-3{
+	width: 80%;
+	height: 24%;
+	position: absolute;
+	top: 66%;
+	left: 10%;
+}
+#pic2 .p2-3 img.pic2-4{
+	width: 100%;
+}
+/*第三个*/
+#pic3{
+	height: 100%;
+}
+#pic3 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic3 .p3-1{
+	width: 85%;
+	height: 63%;
+	position: absolute;
+	top: 5%;
+	left: 7%;
+}
+#pic3 .p3-1 img.pic3-2{
+	width: 100%;
+	
+}
+#pic3 .p3-2{
+	width: 45%;
+	height: 8%;
+	position: absolute;
+	top: 52%;
+	left: 28%;
+}
+#pic3 .p3-2 img.pic3-3{
+	width: 100%;
+}
+#pic3 .p3-3{
+	width: 80%;
+	height: 24%;
+	position: absolute;
+	top: 66%;
+	left: 10%;
+}
+#pic3 .p3-3 img.pic3-4{
+	width: 100%;
+}
+/*第四个*/
+#pic4{
+	height: 100%;
+}
+#pic4 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic4 .p4-1{
+	width: 85%;
+	height: 63%;
+	position: absolute;
+	top: 5%;
+	left: 7%;
+}
+#pic4 .p4-1 img.pic4-2{
+	width: 100%;
+	
+}
+#pic4 .p4-2{
+	width: 45%;
+	height: 8%;
+	position: absolute;
+	top: 52%;
+	left: 28%;
+}
+#pic4 .p4-2 img.pic4-3{
+	width: 100%;
+}
+#pic4 .p4-3{
+	width: 80%;
+	height: 24%;
+	position: absolute;
+	top: 66%;
+	left: 10%;
+}
+#pic4 .p4-3 img.pic4-4{
+	width: 100%;
+}
+/*第五个*/
+#pic5{
+	height: 100%;
+}
+#pic5 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic5 .p5-1{
+	width: 85%;
+	height: 63%;
+	position: absolute;
+	top: 5%;
+	left: 7%;
+}
+#pic5 .p5-1 img.pic5-2{
+	width: 100%;
+	
+}
+#pic5 .p5-2{
+	width: 45%;
+	height: 8%;
+	position: absolute;
+	top: 52%;
+	left: 28%;
+}
+#pic5 .p5-2 img.pic5-3{
+	width: 100%;
+}
+#pic5 .p5-3{
+	width: 80%;
+	height: 24%;
+	position: absolute;
+	top: 66%;
+	left: 10%;
+}
+#pic5 .p5-3 img.pic5-4{
+	width: 100%;
+}
+/*第六个*/
+#pic6{
+	height: 100%;
+}
+#pic6 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic6 .p6-1{
+	width: 85%;
+	height: 63%;
+	position: absolute;
+	top: 5%;
+	left: 7%;
+}
+#pic6 .p6-1 img.pic6-2{
+	width: 100%;
+	
+}
+#pic6 .p6-2{
+	width: 45%;
+	height: 8%;
+	position: absolute;
+	top: 52%;
+	left: 28%;
+}
+#pic6 .p6-2 img.pic6-3{
+	width: 100%;
+}
+#pic6 .p6-3{
+	width: 80%;
+	height: 24%;
+	position: absolute;
+	top: 66%;
+	left: 10%;
+}
+#pic6 .p6-3 img.pic6-4{
+	width: 100%;
+}
+/*第七个*/
+#pic9{
+	height: 100%;
+}
+#pic9 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic9 .p9-1{
+	width: 85%;
+	height: 63%;
+	position: absolute;
+	top: 5%;
+	left: 7%;
+}
+#pic9 .p9-1 img.pic9-2{
+	width: 100%;
+	
+}
+#pic9 .p9-2{
+	width: 45%;
+	height: 8%;
+	position: absolute;
+	top: 52%;
+	left: 28%;
+}
+#pic9 .p9-2 img.pic9-3{
+	width: 100%;
+}
+#pic9 .p9-3{
+	width: 80%;
+	height: 24%;
+	position: absolute;
+	top: 66%;
+	left: 10%;
+}
+#pic9 .p9-3 img.pic9-4{
+	width: 100%;
+}
+
+/*第八个*/
+#pic10{
+	height: 100%;
+	position: relative;
+}
+#pic10 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic10 .p10-1{
+	width: 89%;
+	height: 98%;
+	position: absolute;
+	top: 1%;
+	left: 2%;
+	z-index: 5;
+}
+#pic10 .p10-1 img.pic10-2{
+	width: 102%;
+	height: 100%;
+}
+#pic10 .p10-2{
+	width: 38%;
+	height: 86%;
+	position: absolute;
+	top: 10%;
+	left: 12%;
+}
+#pic10 .p10-2 img.pic10-3{
+	width: 100%;
+	height: 100%;
+}
+#pic10 .p10-3{
+	width: 33%;
+	height: 40%;
+	position: absolute;
+	top: 10%;
+	left: 54%;
+	z-index: 8;
+}
+#pic10 .p10-3 img.pic10-4{
+	width: 100%;
+	height: 100%;
+}
+/*再见*/
+#pic11{
+	height: 100%;
+	position: relative;
+}
+#pic11 img.pic2-1{
+	width: 100%;
+	height: 100%;
+}
+#pic11 .p11-1{
+	width: 90%;
+	height: 50%;
+	position: absolute;
+	top: 2%;
+	left: 4%;
+	/*z-index: 5;*/
+}
+#pic11 .p11-1 img.pic11-2{
+	width: 102%;
+	height: 100%;
+}
+#pic11 .p11-2{
+	width: 26%;
+	height: 9%;
+	position: absolute;
+	top: 60%;
+	left: 32%;
+}
+#pic11 .p11-2 span{
+	color: inherit; 
+	background-color: initial; 
+	font-family: FZZJ-DNXSJW;
+	font-size: 48px;
+}
+#pic11 .p11-3{
+	width: 48%;
+	height: 9%;
+	position: absolute;
+	top: 74%;
+	left: 21%;
+}
+#pic11 .p11-3 span{
+	font-family: FZZJ-DNXSJW;
+	color: inherit; 
+	background-color: initial; 
+	font-size: 48px;
+}
+#pic11 .p11-4{
+	width: 59%;
+	height: 3%;
+	position: absolute;
+	top: 90%;
+	left: 17%;
+}
+#pic11 .p11-4 span{
+	font-size: 12px; 
+	font-family: FZZJ-DNXSJW;
+}
